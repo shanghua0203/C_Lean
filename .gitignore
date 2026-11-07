@@ -52,6 +52,7 @@ env/
 *.exe
 *.d
 a.out
+build/
 
 # ===== 壓縮檔與大型檔案 =====
 *.zip

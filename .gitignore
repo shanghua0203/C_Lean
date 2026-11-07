@@ -1,0 +1,56 @@
+# ===== 系統檔案 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 編輯器 / IDE 設定 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 密碼、金鑰、環境變數（很重要）=====
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# ===== 日誌與暫存 =====
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+dist/
+build/
+.next/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ===== Java / C / C++ 編譯產物 =====
+*.class
+*.o
+*.exe
+*.dll
+
+# ===== 壓縮檔與大型檔案 =====
+*.zip
+*.rar
+*.7z
+*.tar.gz

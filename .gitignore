@@ -44,13 +44,23 @@ env/
 .ipynb_checkpoints/
 
 # ===== Java / C / C++ 編譯產物 =====
-*.class
 *.o
+*.obj
+*.a
+*.so
+*.out
 *.exe
-*.dll
+*.d
+a.out
 
 # ===== 壓縮檔與大型檔案 =====
 *.zip
 *.rar
 *.7z
 *.tar.gz
+
+.DS_Store
+*.dSYM/
+hello
+hello_2
+Ascii

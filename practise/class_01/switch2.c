@@ -25,17 +25,20 @@ const char* week(int num){
             return "星期日";
             break;
         default:
-            return "輸入不合法";
+            return "輸入錯誤，請輸入1-7";
             break;
     }
     return 0;
 }
 
 int main(){
-    int num = 0;
-    scanf("%d", &num);
-    const char *day = week(num);
-    printf("%s\n", day);
+    while(1){
+        int num = 0;
+        if(scanf("%d", &num) != 1) printf("請輸入1-7");
+        
+        const char *day = week(num);
+        printf("%s\n", day);
+    }
 
     return 0;
 }
